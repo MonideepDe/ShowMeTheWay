@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ChooseNShowWay">
+
+    <TextView
+        android:id="@+id/splashScreen_textView"
+        android:text="@string/splashScreen_app_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/brightBlue"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/loading_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading_text"
+        android:layout_below="@id/splashScreen_textView"
+        android:layout_marginTop="20dp"
+        android:textSize="12dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/splashScreenCopyright_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splashScreen_copyright_text"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
